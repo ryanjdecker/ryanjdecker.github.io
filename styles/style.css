@@ -13,15 +13,9 @@ body {
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: calc(1.5rem + 3vw);
 	font-weight: 500;
 	margin-bottom: 0;
-}
-
-@media (min-width: 700px) {
-	h1 {
-		font-size: 4rem;
-	}
 }
 
 h2 {
