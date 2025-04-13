@@ -6,7 +6,9 @@ html {
 
 body {
 	width: 700px;
-	margin: 1rem 10% 10% auto;
+	margin: auto;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 h1 {
