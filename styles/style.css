@@ -1,0 +1,64 @@
+html {
+	font-family: Inter, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+body {
+	width: 700px;
+	margin: 1rem auto;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+h1, h2, h3 {
+	font-family: Inter Tight, Inter, Arial, sans-serif;
+	line-height: 1.2;
+}
+.red {
+	color: #b22222fa;
+}
+
+p {
+	line-height: 1.618;
+}
+.navbar {
+	line-height: 0;
+	margin-top: 20;
+}
+.caption {
+	font-size: 16px;
+}
+.rule::before {
+	color: #b22222fa;
+	font-weight: 400;
+	content: "¶ ";
+}
+.rule {
+	color: #b22222fa;
+	font-weight: 400;
+}
+
+img {
+	display: block;
+}
+.responsive-image {
+	width: 30%;
+	height: auto;
+}
+
