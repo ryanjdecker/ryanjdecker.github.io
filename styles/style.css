@@ -8,20 +8,21 @@ body {
 	font-weight: 300;
 	max-width: 700px;
 	margin: auto;
+	padding-top: 1%;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 500;
 	margin-bottom: 0;
+	line-height: 0;
 }
 
 @media (min-width: 700px) {
 	font-size: 4rem;
 }
-
 
 h2 {
 	font-size: 2rem;
@@ -36,22 +37,25 @@ h3 {
 
 h1, h2, h3 {
 	font-family: Inter Tight, Inter, Arial, sans-serif;
-	line-height: 1.2;
 }
 .red {
 	color: #b22222fa;
 }
+.pilcrow::before {
+	color: #b22222fa;
+	font-weight: 500;
+	content: "¶ ";
+}
+.pilcrow {
+	font-weight: 500;
+}
 
 p {
 	line-height: 1.618;
-	font-size: 1.3rem;
-}
-.navbar {
-	line-height: 0;
-	margin-top: 20;
+	font-size: 1.2rem;
 }
 .caption {
-	font-size: 16px;
+	font-size: 1rem;
 }
 .rule::before {
 	color: #b22222fa;
@@ -62,6 +66,20 @@ p {
 	color: #b22222fa;
 	font-weight: 400;
 }
+.nav {
+	color: #b22222fa;
+	font-weight: 400;
+}
+
+div {
+}
+.navbar {
+	line-height: 0;
+	margin-top: 0;
+}
+.navbar p {
+	color: #b22222fa;
+}
 
 img {
 	display: block;
@@ -71,3 +89,8 @@ img {
 	height: auto;
 }
 
+span {
+}
+.small {
+	font-size: 1rem;
+}
