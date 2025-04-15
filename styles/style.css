@@ -1,6 +1,4 @@
 html {
-	font-size: 1em;
-	font-weight: 300;
 }
 
 body {
@@ -8,13 +6,13 @@ body {
 	font-weight: 300;
 	max-width: 700px;
 	margin: auto;
-	padding-top: 2%;
+	padding-top: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: 500;
 	margin-bottom: 0;
 	line-height: 0;
@@ -27,7 +25,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	font-weight: 500;
 }
 
