@@ -38,9 +38,6 @@ h3 {
 h1, h2, h3 {
 	font-family: Inter Tight, Inter, Arial, sans-serif;
 }
-.red {
-	color: #b22222fa;
-}
 .pilcrow::before {
 	color: #b22222fa;
 	font-weight: 500;
