@@ -87,3 +87,13 @@ span {
 .small {
 	font-size: 1rem;
 }
+
+.container {
+    margin-left: 1rem;
+}
+
+.textbox {
+    display: inline-block;
+    margin-left: 1rem;
+}
+

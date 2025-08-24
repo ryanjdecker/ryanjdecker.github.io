@@ -91,15 +91,10 @@ span {
 }
 
 .container {
-    display: flex;
+    margin-left: 1rem;
 }
 
 .textbox {
-    height: 200px;
-    width: 200px;
-}
-
-.textbox-2 {
-    height: 200px;
-    width: 200px;
+    display: inline-block;
+    margin-left: 1rem;
 }
