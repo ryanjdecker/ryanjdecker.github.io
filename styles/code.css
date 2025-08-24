@@ -1,9 +1,11 @@
 html {
+    background-color: #191919;
+    color: #efefef;
 }
 
 body {
-    font-family: Inconsolata, monospace;
-	font-weight: 300;
+    font-family: "JetBrains Mono", monospace;
+	font-weight: 400;
 	max-width: 700px;
 	margin: auto;
 	padding-top: 3%;
@@ -31,7 +33,7 @@ h3 {
 
 h1, h2, h3 {
 	/*font-family: Inter Tight, Inter, Arial, sans-serif;*/
-    font-family: Inconsolata, monospace;
+    font-family: "JetBrains Mono", monospace;
 }
 .pilcrow::before {
 	color: #b22222fa;
@@ -60,7 +62,7 @@ p {
 }
 .nav {
 	color: #b22222fa;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 div {
@@ -70,7 +72,7 @@ div {
 	margin-top: 0;
 }
 .navbar p {
-	color: #b22222fa;
+	color: #d84848;
     font-size: 1.2rem;
 }
 
@@ -86,4 +88,18 @@ span {
 }
 .small {
 	font-size: 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+.textbox {
+    height: 200px;
+    width: 200px;
+}
+
+.textbox-2 {
+    height: 200px;
+    width: 200px;
 }
