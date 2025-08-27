@@ -72,9 +72,9 @@ p {
 	font-size: 1rem;
 }
 .rule::before {
-	color: #b22222fa;
 	font-weight: 400;
 	content: "¶ ";
+    color: #198aa5;
 }
 .rule {
 	color: #b22222fa;
