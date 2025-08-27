@@ -1,16 +1,23 @@
 html {
     background-color: #191919;
     color: #efefef;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
 }
 
 body {
     /*font-family: Inconsolata, monospace;*/
+    height: 100%;
 	font-weight: 400;
 	max-width: 700px;
 	margin: auto;
 	padding-top: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
+    background-color: #191919;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(25, 25, 25, 0.19);*/
 }
 .sans {
     font-family: Inter, Arial, sans-serif;
@@ -21,20 +28,21 @@ body {
 
 h1 {
 	font-size: 3rem;
-	font-weight: 500;
-	margin-bottom: 0;
+	font-weight: 700;
+	/*margin-bottom: 0;*/
 	line-height: 0;
+    /*font-family: Inter Display, Arial, sans-serif;*/
 }
 
 h2 {
 	font-size: 2rem;
-	font-weight: 800;
+	font-weight: 700;
 	margin-bottom: 0;
-    color: #198aa5;
+    color: white;
     /*color: #dc6064;*/
 }
 h2 span {
-    background-color: white;
+    background-color: #198aa5;
 }
 
 h3 {
@@ -46,9 +54,11 @@ h1, h2, h3 {
 	/*font-family: Inter Tight, Inter, Arial, sans-serif;*/
 }
 .pilcrow::before {
-	color: #b22222fa;
-	font-weight: 500;
-	content: "¶ ";
+	/*color: #b22222fa;*/
+    color: #198aa5;
+    font-weight: 500;
+	content: "¶";
+    margin-right: 1%;
 }
 .pilcrow {
 	font-weight: 500;
@@ -80,12 +90,12 @@ div {
 }
 .navbar {
 	line-height: 0;
-	margin-top: 0;
+	/*margin-top: 2rem;*/
 }
 .navbar p {
     /*color: #d84848;*/
     color: #198aa5;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 img {
@@ -113,3 +123,7 @@ span {
     margin-left: 1rem;
 }
 
+a {
+    /*color: #e67c42;*/
+    color: #198aa5;
+}
