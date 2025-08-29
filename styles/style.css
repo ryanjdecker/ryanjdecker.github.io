@@ -28,6 +28,7 @@ blue: 198aa5
 
 html {
     background-color: var(--secondary-background-color);
+    background-image: url("../images/flower-wallpaper.jpg");
     color: var(--primary-font-color);
     background-attachment: fixed;
     background-position: center center;
@@ -37,17 +38,16 @@ html {
 
 body {
     /*font-family: Inconsolata, monospace;*/
-    height: 90%;
+    height: 100%;
 	font-weight: 400;
 	max-width: 700px;
-    margin: 1rem auto;
-    margin-bottom: 2rem;
+    margin: auto;
     padding-top: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
     background-color: var(--primary-background-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(25, 25, 25, 0.19);
-    border-radius: 20px;
+    /*border-radius: 20px;*/
 }
 .sans {
     font-family: Inter, Arial, sans-serif;
