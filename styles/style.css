@@ -28,7 +28,7 @@ blue: 198aa5
 
 html {
     background-color: var(--secondary-background-color);
-    background-image: url("../images/flower-wallpaper.jpg");
+    /*background-image: url("../images/flower-wallpaper.jpg");*/
     color: var(--primary-font-color);
     background-attachment: fixed;
     background-position: center center;
