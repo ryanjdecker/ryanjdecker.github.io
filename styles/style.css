@@ -1,6 +1,34 @@
+/**
+Colors
+red: #d84848;
+#191919
+#161616
+primary-off-white: #efefef;
+blue: 198aa5
+*/
+
+:root {
+    --primary-background-color: #fefefe;
+    --secondary-background-color: #efefef;
+    --primary-font-color: #010101;
+    --heading-font-color: #010101;
+    --primary-accent-color: #198aa5;
+    --secondary-accent-color: #d52d9a;
+}
+
+/*@media (prefers-color-scheme: dark) {*/
+
+/* Dark theme */
+/*:root {*/
+/*    --primary-background-color: #191919;*/
+/*    --secondary-background-color: #161616;*/
+/*    --primary-font-color: #efefef;*/
+/*    --heading-font-color: #efefef;*/
+/*}*/
+
 html {
-    background-color: #171717;
-    color: #efefef;
+    background-color: var(--secondary-background-color);
+    color: var(--primary-font-color);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -9,15 +37,17 @@ html {
 
 body {
     /*font-family: Inconsolata, monospace;*/
-    height: 100%;
+    height: 90%;
 	font-weight: 400;
 	max-width: 700px;
-	margin: auto;
-	padding-top: 3%;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+    padding-top: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
-    background-color: #191919;
+    background-color: var(--primary-background-color);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(25, 25, 25, 0.19);
+    border-radius: 20px;
 }
 .sans {
     font-family: Inter, Arial, sans-serif;
@@ -38,11 +68,8 @@ h2 {
 	font-size: 2rem;
 	font-weight: 700;
 	margin-bottom: 0;
-    color: white;
+    color: var(--heading-font-color);
     /*color: #dc6064;*/
-}
-h2 span {
-    background-color: #198aa5;
 }
 
 h3 {
@@ -55,7 +82,9 @@ h1, h2, h3 {
 }
 .pilcrow::before {
 	/*color: #b22222fa;*/
-    color: #198aa5;
+    /*color: #198aa5;*/
+    /*color: #d84848;*/
+    color: var(--primary-accent-color);
     font-weight: 500;
 	content: "¶";
     margin-right: 1%;
@@ -77,12 +106,12 @@ p {
     color: #198aa5;
 }
 .rule {
-	color: #b22222fa;
+    color: var(--primary-accent-color);
 	font-weight: 400;
 }
 .nav {
 	/*color: #b22222fa;*/
-    color: #d84848;
+    color: var(--primary-accent-color);
     font-weight: 400;
 }
 
@@ -94,7 +123,8 @@ div {
 }
 .navbar p {
     /*color: #d84848;*/
-    color: #198aa5;
+    /*color: #198aa5;*/
+    color: var(--primary-accent-color);
     font-size: 1.5rem;
 }
 
@@ -125,5 +155,7 @@ span {
 
 a {
     /*color: #e67c42;*/
-    color: #198aa5;
+    /*color: #198aa5;*/
+    color: var(--secondary-accent-color);
 }
+
