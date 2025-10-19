@@ -12,7 +12,8 @@ blue: 198aa5
     --secondary-background-color: #efefef;
     --primary-font-color: #010101;
     --heading-font-color: #010101;
-    --primary-accent-color: #0b5d70;
+    /*--primary-accent-color: #0b5d70;*/
+    --primary-accent-color: #d84848;
     --secondary-accent-color: #d52d9a;
 }
 
