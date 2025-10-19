@@ -7,26 +7,26 @@ primary-off-white: #efefef;
 blue: 198aa5
 */
 
-/*:root {*/
-/*    --primary-background-color: #fefefe;*/
-/*    --secondary-background-color: #efefef;*/
-/*    --primary-font-color: #010101;*/
-/*    --heading-font-color: #010101;*/
-/*    --primary-accent-color: #198aa5;*/
-/*    --secondary-accent-color: #d52d9a;*/
-/*}*/
+:root {
+    --primary-background-color: #fefefe;
+    --secondary-background-color: #efefef;
+    --primary-font-color: #010101;
+    --heading-font-color: #010101;
+    --primary-accent-color: #0b5d70;
+    --secondary-accent-color: #d52d9a;
+}
 
 /*@media (prefers-color-scheme: dark) {*/
 
 /* Dark theme */
-:root {
-    --primary-background-color: #191919;
-    --secondary-background-color: #161616;
-    --primary-font-color: #efefef;
-    --heading-font-color: #efefef;
-    --primary-accent-color: #198aa5;
-    --secondary-accent-color: #d52d9a;
-}
+/*:root {*/
+/*    --primary-background-color: #191919;*/
+/*    --secondary-background-color: #161616;*/
+/*    --primary-font-color: #efefef;*/
+/*    --heading-font-color: #efefef;*/
+/*    --primary-accent-color: #198aa5;*/
+/*    --secondary-accent-color: #d52d9a;*/
+/*}*/
 
 html {
     background-color: var(--secondary-background-color);
@@ -80,7 +80,13 @@ h2 {
 
 h3 {
 	font-size: 1.2rem;
-	font-weight: 500;
+	font-weight: 700;
+    color: var(--primary-accent-color);
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 h1, h2, h3 {
