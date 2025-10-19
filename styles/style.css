@@ -7,27 +7,28 @@ primary-off-white: #efefef;
 blue: 198aa5
 */
 
-:root {
-    --primary-background-color: #fefefe;
-    --secondary-background-color: #efefef;
-    --primary-font-color: #010101;
-    --heading-font-color: #010101;
-    /*--primary-accent-color: #0b5d70;*/
-    --primary-accent-color: #d84848;
-    --secondary-accent-color: #d52d9a;
-}
+/*:root {*/
+/*    --primary-background-color: #fefefe;*/
+/*    --secondary-background-color: #efefef;*/
+/*    --primary-font-color: #010101;*/
+/*    --heading-font-color: #010101;*/
+/*    !*--primary-accent-color: #0b5d70;*!*/
+/*    --primary-accent-color: #d84848;*/
+/*    --secondary-accent-color: #d52d9a;*/
+/*}*/
 
 /*@media (prefers-color-scheme: dark) {*/
 
 /* Dark theme */
-/*:root {*/
-/*    --primary-background-color: #191919;*/
-/*    --secondary-background-color: #161616;*/
-/*    --primary-font-color: #efefef;*/
-/*    --heading-font-color: #efefef;*/
-/*    --primary-accent-color: #198aa5;*/
-/*    --secondary-accent-color: #d52d9a;*/
-/*}*/
+:root {
+    --primary-background-color: #242424;
+    --secondary-background-color: #202020;
+    --primary-font-color: #efefef;
+    --heading-font-color: #efefef;
+    /*--primary-accent-color: #198aa5;*/
+    --primary-accent-color: #d84848;
+    --secondary-accent-color: #d52d9a;
+}
 
 html {
     background-color: var(--secondary-background-color);
