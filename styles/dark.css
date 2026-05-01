@@ -11,9 +11,9 @@ blue: 198aa5
 
 /* Dark theme */
 :root {
-    --primary-background-color: #242424;
+    --background-color: #242424;
     --secondary-background-color: #242424;
-    --primary-font-color: #efefef;
+    --text-color: #efefef;
     --heading-font-color: #efefef;
     /*--primary-accent-color: #198aa5;*/
     --primary-accent-color: #d84848;
@@ -23,7 +23,7 @@ blue: 198aa5
 html {
     background-color: var(--secondary-background-color);
     /*background-image: url("../images/flower-wallpaper.jpg");*/
-    color: var(--primary-font-color);
+    color: var(--text-color);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -38,7 +38,7 @@ body {
     padding-top: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
-    background-color: var(--primary-background-color);
+    background-color: var(--background-color);
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(25, 25, 25, 0.19);*/
     /*border-radius: 20px;*/
 }

@@ -1,27 +1,22 @@
-/**
-Colors
-red: #d84848;
-#191919
-#161616
-primary-off-white: #efefef;
-blue: 198aa5
-*/
-
 :root {
-    --primary-background-color: #fefefe;
-    --secondary-background-color: #fefefe;
-    --primary-font-color: #010101;
+    --background-color: #fefefe;
+    --text-color: #010101;
     --heading-font-color: #010101;
     /*--primary-accent-color: #0b5d70;*/
     --primary-accent-color: #010101;
     --secondary-accent-color: #010101;
 }
 
-/*@media (prefers-color-scheme: dark) {*/
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #111111;
+        --text-color: #f5f5f5;
+    }
+}
 
 html {
-    background-color: var(--secondary-background-color);
-    color: var(--primary-font-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -38,9 +33,7 @@ body {
     padding-top: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
-    background-color: var(--primary-background-color);
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(25, 25, 25, 0.19);*/
-    /*border-radius: 20px;*/
+    background-color: var(--background-color);
 }
 .sans {
     font-family: Inter, Arial, sans-serif;
@@ -64,14 +57,11 @@ h2 {
 	font-size: 1.5rem;
 	font-weight: 700;
 	/*margin-bottom: 0;*/
-    color: var(--heading-font-color);
-    /*color: #dc6064;*/
 }
 
 h3 {
 	font-size: 1.2rem;
 	font-weight: 700;
-    color: var(--primary-accent-color);
 }
 
 h4 {
@@ -129,7 +119,7 @@ div {
 .navbar p {
     /*color: #d84848;*/
     /*color: #198aa5;*/
-    color: var(--primary-accent-color);
+    color: var(--text-color);
     font-size: 1.5rem;
 }
 
@@ -150,9 +140,6 @@ span {
     font-size: 0.9rem;
 }
 
-/*.container {*/
-/*}*/
-
 .textbox {
     display: inline-block;
     margin-left: 1rem;
@@ -163,4 +150,3 @@ a {
     /*color: #198aa5;*/
     color: var(--secondary-accent-color);
 }
-
