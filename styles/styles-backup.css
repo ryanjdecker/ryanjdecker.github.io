@@ -1,6 +1,10 @@
 :root {
     --background-color: #fefefe;
     --text-color: #010101;
+    --heading-font-color: #010101;
+    /*--primary-accent-color: #0b5d70;*/
+    --primary-accent-color: #D84848FF;
+    --secondary-accent-color: #010101;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -69,6 +73,25 @@ p {
 	line-height: 1.618;
 	font-size: 1rem;
 }
+.caption {
+	font-size: 1rem;
+}
+.rule::before {
+	font-weight: 600;
+	content: "¶ ";
+    color: var(--primary-accent-color);
+}
+.rule {
+    color: var(--primary-accent-color);
+	font-weight: 600;
+}
+.nav {
+    color: var(--primary-accent-color);
+    font-weight: 400;
+}
+.sans {
+    font-size: 2rem;
+}
 
 div {
 }
@@ -103,4 +126,10 @@ span {
 .textbox {
     display: inline-block;
     margin-left: 1rem;
+}
+
+a {
+    /*color: #e67c42;*/
+    /*color: #198aa5;*/
+    /*color: var(--secondary-accent-color);*/
 }
