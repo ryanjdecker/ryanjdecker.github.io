@@ -25,7 +25,6 @@ html {
 }
 
 body {
-    -webkit-text-size-adjust: none;
     height: 100%;
 	font-weight: 400;
 	max-width: 700px;
@@ -33,7 +32,8 @@ body {
     padding-top: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
-    background-color: var(--background-color);
+    /*background-color: var(--background-color);*/
+    -webkit-text-size-adjust: none;
 }
 .sans {
     font-family: Inter, Arial, sans-serif;
@@ -70,7 +70,7 @@ h4 {
 }
 
 h1, h2, h3 {
-	/*font-family: Inter Tight, Inter, Arial, sans-serif;*/
+	font-family: Inter Tight, Inter, Arial, sans-serif;
 }
 .pilcrow::before {
 	/*color: #b22222fa;*/
