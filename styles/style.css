@@ -19,25 +19,15 @@ blue: 198aa5
 
 /*@media (prefers-color-scheme: dark) {*/
 
-/* Dark theme */
-/*:root {*/
-/*    --primary-background-color: #242424;*/
-/*    --secondary-background-color: #242424;*/
-/*    --primary-font-color: #efefef;*/
-/*    --heading-font-color: #efefef;*/
-/*    !*--primary-accent-color: #198aa5;*!*/
-/*    --primary-accent-color: #d84848;*/
-/*    --secondary-accent-color: #d52d9a;*/
-/*}*/
-
 html {
     background-color: var(--secondary-background-color);
-    /*background-image: url("../images/flower-wallpaper.jpg");*/
     color: var(--primary-font-color);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     height: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -62,10 +52,8 @@ body {
 h1 {
 	font-size: 2rem;
 	font-weight: 700;
-    color: var(--primary-accent-color);
 	/*margin-bottom: 0;*/
 	line-height: 0;
-    /*font-family: Inter Display, Arial, sans-serif;*/
 }
 .date {
     font-family: Inter, Arial, sans-serif;
