@@ -9,12 +9,12 @@ blue: 198aa5
 
 :root {
     --primary-background-color: #fefefe;
-    --secondary-background-color: #fefefe;
+    --secondary-background-color: #efefef;
     --primary-font-color: #010101;
     --heading-font-color: #010101;
     /*--primary-accent-color: #0b5d70;*/
-    --primary-accent-color: #010101;
-    --secondary-accent-color: #010101;
+    --primary-accent-color: #d84848;
+    --secondary-accent-color: #d52d9a;
 }
 
 /*@media (prefers-color-scheme: dark) {*/
