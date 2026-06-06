@@ -75,6 +75,9 @@ p {
 	line-height: 1.618;
 	font-size: 1rem;
 }
+.reference {
+    text-indent: 1.5em hanging;
+}
 
 div {
 }
