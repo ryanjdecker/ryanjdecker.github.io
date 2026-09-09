@@ -46,13 +46,19 @@ h1, h2, h3, h4 {
 
 h1 {
 	font-size: 3rem;
-	font-weight: 700;
-	/*margin-bottom: 0;*/
-	line-height: 0;
+	font-weight: 600;
+    line-height: 1rem;
+}
+.before-author {
+    margin-bottom: 0;
+    line-height: 0;
 }
 .date {
     font-family: Inter, Arial, sans-serif;
     margin-bottom: 2rem;
+}
+.mono {
+    font-family: "JetBrains Mono", monospace;
 }
 
 h2 {
@@ -74,6 +80,9 @@ h4 {
 p {
 	line-height: 1.618;
 	font-size: 1rem;
+}
+.author {
+    font-size: 1.5rem;
 }
 .reference {
     text-indent: 1.5em hanging;
@@ -103,9 +112,9 @@ img {
 span {
 }
 .small-heading {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
-.small-paragraph {
+.smallcaps {
     font-size: 0.9rem;
 }
 
