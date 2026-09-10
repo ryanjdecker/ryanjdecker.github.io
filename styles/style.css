@@ -6,7 +6,6 @@
     --link-color: #0000ee;
     --visited-link-color: #551a8b;
 }
-
 @supports (font-variation-settings: normal) {
     :root { font-family: InterVariable, sans-serif; }
 }
