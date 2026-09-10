@@ -1,8 +1,14 @@
 :root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
     --background-color: #fefefe;
     --text-color: #010101;
     --link-color: #0000ee;
     --visited-link-color: #551a8b;
+}
+
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,7 +32,7 @@ html {
 body {
     height: 100%;
 	font-weight: 400;
-	max-width: 700px;
+	max-width: 600px;
     margin: auto;
     padding-top: 3%;
 	padding-left: 5%;
@@ -34,71 +40,40 @@ body {
     -webkit-text-size-adjust: none;
 }
 .sans {
-    font-family: Inter, Arial, sans-serif;
+    font-family: Inter, sans-serif;
 }
 .mono {
     font-family: "JetBrains Mono", monospace;
 }
+.serif {
+    font-family: "Newsreader", "EB Garamond", serif;
+}
+
+p {
+    line-height: 1.618;
+}
+.hanging {
+    text-indent: 1.5em hanging;
+}
 
 h1, h2, h3, h4 {
-    font-family: Inter Tight, Inter, Arial, sans-serif;
+    font-weight: 600;
 }
 
 h1 {
 	font-size: 3rem;
-	font-weight: 600;
-    line-height: 1rem;
-}
-.before-author {
-    margin-bottom: 0;
-    line-height: 0;
-}
-.date {
-    font-family: Inter, Arial, sans-serif;
-    margin-bottom: 2rem;
-}
-.mono {
-    font-family: "JetBrains Mono", monospace;
 }
 
 h2 {
 	font-size: 2.2rem;
-	font-weight: 700;
-	/*margin-bottom: 0;*/
 }
 
 h3 {
 	font-size: 1.5rem;
-	font-weight: 700;
 }
 
 h4 {
     font-size: 1.2rem;
-    font-weight: 700;
-}
-
-p {
-	line-height: 1.618;
-	font-size: 1rem;
-}
-.author {
-    font-size: 1.5rem;
-}
-.reference {
-    text-indent: 1.5em hanging;
-}
-
-div {
-}
-.navbar {
-	line-height: 0;
-	/*margin-top: 2rem;*/
-}
-.navbar p {
-    /*color: #d84848;*/
-    /*color: #198aa5;*/
-    color: var(--text-color);
-    font-size: 1.5rem;
 }
 
 img {
