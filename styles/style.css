@@ -38,6 +38,7 @@ body {
 	padding-left: 5%;
 	padding-right: 5%;
     -webkit-text-size-adjust: none;
+    font-family: Inter, sans-serif;
 }
 .sans {
     font-family: Inter, sans-serif;
