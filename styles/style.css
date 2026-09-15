@@ -2,6 +2,8 @@
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
     --background-color: #fefefe;
+    /*--background-color: #f0eee6;*/
+    /*--background-color: #f0eeee;*/
     --text-color: #010101;
     --link-color: #0000ee;
     --visited-link-color: #551a8b;
