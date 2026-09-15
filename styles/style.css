@@ -14,7 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: #1b1b1b;
+        /*--background-color: #1b1b1b;*/
+        --background-color: #282828;
         --text-color: #f5f5f5;
         --link-color: #4fc3f7;
         --visited-link-color: #b39ddb;
@@ -35,7 +36,6 @@ body {
 	font-weight: 400;
 	max-width: 600px;
     margin: auto;
-    padding-top: 3%;
 	padding-left: 5%;
 	padding-right: 5%;
     -webkit-text-size-adjust: none;
