@@ -130,3 +130,7 @@ thead, tfoot {
     text-align: left;
     /*margin-left: 1em;*/
 }
+
+blockquote {
+    line-height: 1.618;
+}
