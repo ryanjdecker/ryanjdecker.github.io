@@ -40,6 +40,7 @@ body {
 	padding-right: 5%;
     -webkit-text-size-adjust: none;
     font-family: Inter, sans-serif;
+    line-height: 1.618;
 }
 .sans {
     font-family: Inter, sans-serif;
@@ -49,6 +50,7 @@ body {
 }
 .serif {
     font-family: "Newsreader", "EB Garamond", serif;
+    font-size: 1.3rem;
 }
 
 p {
