@@ -44,6 +44,7 @@ body {
 }
 .sans {
     font-family: Inter, sans-serif;
+    font-size: 1.1rem;
 }
 .mono {
     font-family: "JetBrains Mono", monospace;
@@ -54,7 +55,6 @@ body {
 }
 
 p {
-    line-height: 1.618;
 }
 
 .hanging {
@@ -132,5 +132,5 @@ thead, tfoot {
 }
 
 blockquote {
-    line-height: 1.618;
 }
+
