@@ -35,7 +35,7 @@ body {
     /*background-color: var(--background-color);*/
     -webkit-text-size-adjust: none;
 }
-.sans {
+.sans-serif {
     font-family: Inter, Arial, sans-serif;
 }
 .mono {
@@ -89,7 +89,7 @@ p {
     color: var(--primary-accent-color);
     font-weight: 400;
 }
-.sans {
+.sans-serif {
     font-size: 2rem;
 }
 
