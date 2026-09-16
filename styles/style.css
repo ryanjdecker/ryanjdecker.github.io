@@ -15,8 +15,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        /*--background-color: #1b1b1b;*/
         --background-color: #202020;
+        /*--background-color: #274c4d; !* green chalkboard *!*/
         --text-color: #f5f5f5;
         --link-color: #4fc3f7;
         --visited-color: #4fc3f7;
@@ -37,7 +37,7 @@ html {
 body {
     height: 100%;
 	font-weight: 400;
-	max-width: 600px;
+	max-width:700px;
     margin: auto;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -46,8 +46,8 @@ body {
     font-family: Inter, sans-serif;
 }
 .sans-serif {
-    font-family: Sen, Inter, sans-serif;
-    font-size: 1.2rem;
+    font-family: Teachers, Inter, sans-serif;
+    font-size: 1.3rem;
 }
 .mono {
     font-family: "JetBrains Mono", monospace;
