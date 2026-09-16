@@ -1,5 +1,21 @@
+@font-face {
+    font-family: 'Teachers';
+    src:url('../assets/fonts/teachers-italic.woff2') format('woff2');
+    font-weight: 400 800;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Teachers';
+    src:url('../assets/fonts/teachers.woff2') format('woff2');
+    font-weight: 400 800;
+    font-display: swap;
+    font-style: normal;
+}
+
 :root {
-    font-family: Inter, sans-serif;
+    font-family: 'Teachers', sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
     --background-color: #fefefe;
     /*--background-color: #f0eee6;*/
@@ -10,7 +26,7 @@
     /*--visited-link-color: #551a8b;*/
 }
 @supports (font-variation-settings: normal) {
-    :root { font-family: InterVariable, sans-serif; }
+    :root { font-family: 'Teachers', InterVariable, sans-serif; }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,7 +62,7 @@ body {
     font-family: Inter, sans-serif;
 }
 .sans-serif {
-    font-family: Teachers, Inter, sans-serif;
+    font-family: 'Teachers', Inter, sans-serif;
     font-size: 1.3rem;
 }
 .mono {
@@ -65,7 +81,7 @@ p {
 }
 
 h1, h2, h3, h4 {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h1 {
