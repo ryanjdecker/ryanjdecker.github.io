@@ -39,6 +39,7 @@ body {
     margin: auto;
 	padding-left: 5%;
 	padding-right: 5%;
+    padding-bottom: 50px;
     -webkit-text-size-adjust: none;
     font-family: Inter, sans-serif;
 }
