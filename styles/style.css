@@ -6,7 +6,8 @@
     /*--background-color: #f0eeee;*/
     --text-color: #010101;
     --link-color: #0000ee;
-    --visited-link-color: #551a8b;
+    --visited-color: #0000ee;
+    /*--visited-link-color: #551a8b;*/
 }
 @supports (font-variation-settings: normal) {
     :root { font-family: InterVariable, sans-serif; }
@@ -18,7 +19,8 @@
         --background-color: #202020;
         --text-color: #f5f5f5;
         --link-color: #4fc3f7;
-        --visited-link-color: #b39ddb;
+        --visited-color: #4fc3f7;
+        /*--visited-link-color: #b39ddb;*/
     }
 }
 
@@ -45,7 +47,7 @@ body {
 }
 .sans {
     font-family: Inter, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 }
 .mono {
     font-family: "JetBrains Mono", monospace;
@@ -104,12 +106,13 @@ span {
     margin-left: 1rem;
 }
 
-a:link {
-    color: var(--link-color);
+a {
+    color: var(--text-color);
+    transition: opacity 300ms ease-in-out;
 }
 
-a:visited {
-    color: var(--visited-link-color);
+a:hover {
+    opacity: 0.6;
 }
 
 table {
