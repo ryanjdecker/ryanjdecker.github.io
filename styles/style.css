@@ -107,7 +107,7 @@ span {
 }
 
 a {
-    color: var(--text-color);
+    color: var(--link-color);
     transition: opacity 300ms ease-in-out;
 }
 
