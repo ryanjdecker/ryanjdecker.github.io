@@ -17,13 +17,12 @@
 :root {
     font-family: 'Teachers', sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
-    --background-color: #fefefe;
-    /*--background-color: #f0eee6;*/
-    /*--background-color: #f0eeee;*/
-    --text-color: #010101;
-    --link-color: #0000ee;
-    --visited-color: #0000ee;
-    /*--visited-link-color: #551a8b;*/
+    /*--background-color: #fefefc;*/
+    /*--text-color: #010101;*/
+    /*--link-color: #0000ee;*/
+    --background-color: #202020;
+    --text-color: #f5f5f5;
+    --link-color: #4fc3f7;
 }
 @supports (font-variation-settings: normal) {
     :root { font-family: 'Teachers', InterVariable, sans-serif; }
@@ -34,8 +33,6 @@
         --background-color: #202020;
         --text-color: #f5f5f5;
         --link-color: #4fc3f7;
-        --visited-color: #4fc3f7;
-        /*--visited-link-color: #b39ddb;*/
     }
 }
 
@@ -137,7 +134,7 @@ table {
 }
 
 thead, tfoot {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .align-right {
