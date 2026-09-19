@@ -17,12 +17,12 @@
 :root {
     font-family: 'Teachers', sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
-    /*--background-color: #fefefc;*/
-    /*--text-color: #010101;*/
-    /*--link-color: #0000ee;*/
-    --background-color: #202020;
-    --text-color: #f5f5f5;
-    --link-color: #4fc3f7;
+    --background-color: #fefefe;
+    --text-color: #010101;
+    --link-color: #0000ee;
+    /*--background-color: #202020;*/
+    /*--text-color: #f5f5f5;*/
+    /*--link-color: #4fc3f7;*/
 }
 @supports (font-variation-settings: normal) {
     :root { font-family: 'Teachers', InterVariable, sans-serif; }
@@ -112,6 +112,21 @@ span {
 .smallcaps {
     font-size: 1.1rem;
 }
+
+div {}
+.columns {
+    display: flex;
+    gap: 20px;
+}
+.indent {
+    margin-left: 1rem;
+}
+
+/*.paragraph-container p {*/
+/*    flex: 1;            !* Forces both paragraphs to take up equal width *!*/
+/*    margin: 0;          !* Removes default browser margins for clean layout *!*/
+/*    padding: 15px;      !* Adds inner spacing for better readability *!*/
+/*}*/
 
 .textbox {
     display: inline-block;
