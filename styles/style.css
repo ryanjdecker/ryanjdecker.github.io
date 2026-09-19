@@ -116,21 +116,12 @@ span {
 div {}
 .columns {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
+    margin-left: 2rem;
 }
-.indent {
-    margin-left: 1rem;
-}
-
-/*.paragraph-container p {*/
-/*    flex: 1;            !* Forces both paragraphs to take up equal width *!*/
-/*    margin: 0;          !* Removes default browser margins for clean layout *!*/
-/*    padding: 15px;      !* Adds inner spacing for better readability *!*/
-/*}*/
-
-.textbox {
-    display: inline-block;
-    margin-left: 1rem;
+.columns p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 a {
